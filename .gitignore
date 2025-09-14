@@ -1,0 +1,64 @@
+# ----------------------------
+# Angle Images
+# ----------------------------
+SHMS/SHMS_angle_*.jpg
+HMS/HMS_angle_*.jpg
+
+# ----------------------------
+# Python artifacts
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Bytecode cache
+*.pyo
+*.pyd
+
+# ----------------------------
+# Testing / coverage
+# ----------------------------
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ----------------------------
+# IDE / editor files
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------
+# OS files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Project-specific
+# ----------------------------
+labels.txt
+*.log
